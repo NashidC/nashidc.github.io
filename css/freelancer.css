@@ -6,6 +6,8 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: #4F293B;
+  color: #EFE3EF;
 }
 p {
   font-size: 20px;
@@ -29,6 +31,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: #EFE3EF;
 }
 hr.star-light,
 hr.star-primary {
@@ -53,23 +56,23 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #280D1A;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: white;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color: #4F293B;
+  color: white;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #4F293B;
+  color: #EFE3EF;
 }
 header .container {
   padding-top: 100px;
@@ -103,7 +106,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #3E1428;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -125,7 +128,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #A31A5E;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -133,13 +136,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #A31A5E;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #A31A5E;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -149,9 +152,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #A31A5E;
   color: white;
-  border-color: #18BC9C;
+  border-color: #A31A5E;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -181,8 +184,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: #280D1A;
+  color: #EFE3EF;
 }
 @media (max-width: 767px) {
   section {
@@ -258,6 +261,7 @@ section.success {
   background: none;
   box-shadow: none !important;
   resize: none;
+  color: white;
 }
 .floating-label-form-group label {
   display: block;
@@ -284,7 +288,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #A31A5E;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -297,14 +301,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #3E1428;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #300F1F;
 }
 .btn-outline {
   color: white;
@@ -318,14 +322,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #A31A5E;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #A31A5E;
+  border-color:#A31A5E;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -365,9 +369,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-success {
-  color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  color: #3E1428;
+  background-color: white;
+  border-color: #3E1428;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -376,8 +380,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #A31A5E;
+  border-color: #A31A5E;
 }
 .btn-success:active,
 .btn-success.active,
