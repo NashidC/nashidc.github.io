@@ -82,6 +82,13 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
+
+.portfolio img {
+  
+    vertical-align: middle;
+    border-style: none;
+  
+}
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
